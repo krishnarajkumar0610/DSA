@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        bubbleSort(ArrayValue.values());
+        bubbleSort(ArrayValue.generateRandomArrayValues());
     }
 
     private static void bubbleSort(int[] values) {
