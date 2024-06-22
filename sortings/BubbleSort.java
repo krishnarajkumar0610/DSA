@@ -1,7 +1,3 @@
-package dsa.DSA.sortings;
-
-import dsa.DSA.sortings.special_methods.SpecialMethods;
-
 import java.util.Arrays;
 
 public class BubbleSort {

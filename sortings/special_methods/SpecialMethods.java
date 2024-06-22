@@ -1,5 +1,3 @@
-package dsa.DSA.sortings.special_methods;
-
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
