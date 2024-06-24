@@ -10,8 +10,16 @@ public class SpecialMethods {
         sc.close();
         for (int i = 0; i < arr.length; i++)
             arr[i] = generateNumber.nextInt(100) + 1;
-        System.out.println(Arrays.toString(arr));
         return arr;
+    }
+
+    public static int getMaxElement(int[] arr, int st, int end) {
+        int max = 0;
+        for (int i = 0; i <= end; i++) {
+            if (arr[max] < arr[i])
+                max = i;
+        }
+        return max;
     }
 
     public static void swap(int[] arr, int i, int j) {
@@ -19,4 +27,5 @@ public class SpecialMethods {
         arr[j] = arr[i];
         arr[i] = temp;
     }
+
 }
