@@ -6,6 +6,7 @@ public class SelectionSort {
     }
 
     public static void selectionSort(int[] arr) {
+        System.out.println(Arrays.toString(arr));
         for (int i = 0; i < arr.length; i++) {
             int lastIndex = arr.length - i - 1;
             int maxIndex = SpecialMethods.getMaxElement(arr, 0, lastIndex);
